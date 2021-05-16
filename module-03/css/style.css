@@ -1,0 +1,103 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    margin: 0 auto;
+    min-height: 100vh;
+    font-family: 'Pathway Gothic One', sans-serif;
+}
+
+.page {
+    max-width: 940px;
+    min-width: 320px;
+    margin: 0 auto;
+}
+
+.header-menu {
+    max-width: 900px;
+    margin: 0 auto 104px auto;
+    text-align: center;      
+}
+
+.header-menu a {
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    text-transform: capitalize;
+    color: #424242;      
+}
+
+.header-menu-item {
+    display: inline-block;  
+}
+
+.header-menu-item:hover{
+background-color: #FFF5EE;
+border-radius: 10px;
+display: inline-block; 
+}
+
+.articles {
+    max-width: 900px; 
+    margin: 0 auto;
+    font-size: 0;
+}   
+
+.article {
+    width: calc(50% - 30px);
+    display: inline-block;
+    max-width: 900px;
+    vertical-align: top; 
+    font-size: 0;
+}
+
+.article:nth-child(even) {
+    margin-left: 60px;
+}
+
+
+.article-image {
+    display: block;
+    max-width: 100%; 
+    margin: 0 auto;
+}
+
+.article-tag {
+    display: inline-block;
+    color: #929292;
+    margin-top: 16px; 
+    font-size: 14px;
+    text-transform: uppercase;
+}
+  
+.article-title {
+    margin-top: 16px; 
+    color: #696969;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 1.2;
+}
+  
+.article-text {
+    color: #696969; 
+    margin-top: 16px;
+    font-size: 14px;
+    line-height: 1.714;
+}
+  
+
+
+.button {
+    padding: 10px;  
+    display: block;    
+    margin: 0 auto;
+    margin-top: 50px;
+    border: 1px solid #696969;
+    width: 165px;
+    text-transform: capitalize;
+    color: #4b4b4b;
+    background: transparent;
+}
